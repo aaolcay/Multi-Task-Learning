@@ -1,6 +1,8 @@
 # Multi-Task Learning Example for Gender and Race Classification
 
-This repository includes a multi-task learning example on the face images to classify the genders and races of people. The dataset is from the Kaggle.
+This repository includes a multi-task learning example on the face images to classify the genders and races of people (see the figure below for an example). The dataset is from the Kaggle.
+
+![image](https://github.com/aaolcay/Multi-Task-Learning/assets/65263843/b4379ebd-fc0d-422f-9b74-2403022250b1)
 
 The code has been written on GoogleColab. You just need to run the code in multi_task_learning.ipynb, the code first retrieve the data from Kaggle dataset including more than 20000 face images with the labels of gender, ethnicity, and age. We apply transfer learning by using VGG16 to classify the image genders and races. The accuracy is quite high and you can see that we use different evaluation techniques such as Receiver Operating Characteristic (ROC) curve and Area Under the Curve (AUC). 
 
